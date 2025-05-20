@@ -1,0 +1,29 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build and dist directories
+build/
+dist/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore logs
+*.log
+
+# Ignore .NET build results
+[Bb]in/
+[Oo]bj/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.njsproj
+*.sln.DotSettings.user
+*.vssscc
+*.builds
+
+# Ignore VS Code files (consider keeping settings.json or launch.json if needed)
+.vscode/ 
